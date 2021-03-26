@@ -720,8 +720,7 @@ _outside_ the pattern first. Other than that, they look pretty similar to the
 
 Note that we just wrapped the `(nof 4 ...)` expression in a `(hold h1 4 ...)`
 one; so the "generate 4 new pitches for the pattern expression" thing will only
-happen once every four loops. And obviously this is handy when you put it
-against a 
+happen once every four loops.
 
 You can define & use as many holders as you like, just make sure they all have
 distinct names (e.g. `h1`, `h2`).
